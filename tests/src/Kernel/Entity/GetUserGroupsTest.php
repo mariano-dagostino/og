@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\og\Kernel\Entity;
 
-use Drupal\entity_test\Entity\EntityTest;
-use Drupal\KernelTests\KernelTestBase;
 use Drupal\Component\Utility\Unicode;
+use Drupal\KernelTests\KernelTestBase;
 use Drupal\Tests\og\Traits\OgMembershipCreationTrait;
+use Drupal\entity_test\Entity\EntityTest;
 use Drupal\og\Og;
 use Drupal\og\OgMembershipInterface;
 use Drupal\user\Entity\User;
